@@ -1,0 +1,39 @@
+{
+  "name": "react-hot-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "brace": "^0.7.0",
+    "browser-sync": "^2.11.1",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "cjsx-loader": "^2.1.0",
+    "co": "^4.6.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "json-loader": "^0.5.4",
+    "livescript": "^1.4.0",
+    "livescript-loader": "^0.1.5",
+    "markdown-styles": "^3.1.4",
+    "radium": "^0.16.6",
+    "raw-loader": "^0.5.1",
+    "react": "^0.14.7",
+    "react-ace": "^3.1.0",
+    "react-dom": "^0.14.7",
+    "react-hot-loader": "^2.0.0-alpha-4",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1",
+    "redux-actions": "^0.9.1",
+    "remark": "^4.1.1",
+    "remark-react": "^2.0.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
