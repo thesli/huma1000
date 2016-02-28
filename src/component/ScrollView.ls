@@ -1,12 +1,17 @@
 require!{
   '../component/MarkdownEl.ls': {MarkdownEl}
+  '../util/smoothscroll.ls': {SmoothScroll}
 }
+
 export ScrollView = class extends React.Component
   lc: {
-    cdm: ->
 
-    cdu: ->
-      # @refs['wrap'].scrollTop = 99999
+    cdm: ->
+      setTimeout ~>
+        m = /title=(.+)/.exec location.search
+        if m[1]?
+          @refs['wrap'].querySelectorAll('h1')[1].scrollIntoView!
+      , 1000
 
   }
   r: ->

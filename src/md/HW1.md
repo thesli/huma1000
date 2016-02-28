@@ -271,7 +271,7 @@
 
       - right is a comparison, relative
         - usually you realize **after** you were **deprived**
-        - and many rights are often assumed 
+        - and many rights are often assumed
 
       - right to be informed, understood
         - understanding the right you have
